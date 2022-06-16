@@ -1,5 +1,11 @@
 // Só funciona para descrição de obetos
 
+
+/**
+ * Interface Game describe atributs 
+ * @param {string} title describe title Game
+ * @param {string} description describe sinopse of the Game 
+ */
 interface Game {
   title: string;
   description: string;
@@ -7,6 +13,7 @@ interface Game {
   platform?: string[];
   getSimilars?: (title: string) => void;
 }
+
 
 const residentEvil: Game = {
   title: "Resident Evil",
