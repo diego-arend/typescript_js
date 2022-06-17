@@ -1,21 +1,21 @@
 "use strict";
 1; // boolena(true/false)
-let isAll;
+var isAll;
 isAll = true;
 // string('foo', "foo", `foo`)
-let message;
+var message;
 message = "foo";
 // number (int, float, hex, binary)
-let total;
+var total;
 total = 0xff || 123;
 // array (type[])
-let itens;
+var itens;
 itens = ["foo", "foo2"];
 // or generic notation
-let build;
+var build;
 build = [1, 2];
 // tuple (defined array[])
-let title;
+var title;
 title = [1, "foo", true];
 // enum(object {key:value})
 var Colors;
@@ -24,11 +24,11 @@ var Colors;
     Colors["black"] = "#000";
 })(Colors || (Colors = {}));
 // any (nothing type #DONT USE)
-let coisa;
+var coisa;
 // void(function(){})
 function logger() { }
 // null | undefined
-let bla;
+var bla;
 bla = "foo";
 bla = undefined;
 // never (function never return)
@@ -36,7 +36,7 @@ function error() {
     throw new Error("error");
 }
 // object ({})
-let cart;
+var cart;
 cart = {
     item: "card",
 };

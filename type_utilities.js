@@ -1,5 +1,5 @@
 "use strict";
-const todo = {
+var todo = {
     title: "Assistir Dark novamente",
     description: "Relembrar os detalhes",
     completed: false,

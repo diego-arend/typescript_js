@@ -1,13 +1,13 @@
 "use strict";
-const account = {
+var account = {
     id: 1,
     name: "Diego",
 };
-const char = {
+var char = {
     nickName: "Zeus",
     level: 10,
 };
-const userInfo = {
+var userInfo = {
     id: 1,
     name: "Diego",
     nickName: "Zeus",

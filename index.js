@@ -1,16 +1,16 @@
 "use strict";
-const a = 1;
-const b = 2;
+var a = 1;
+var b = 2;
 function sum(x, y) {
-    const newLocal = x + y;
+    var newLocal = x + y;
     return newLocal;
 }
-const c = sum(a, b);
+var c = sum(a, b);
 function logDetails(uid, item) {
-    console.log(`A product ${uid} reference the product ${item}`);
+    console.log("A product ".concat(uid, " reference the product ").concat(item));
 }
-const logs = logDetails(123, "shoes");
-const x = logDetails(123, { id: true });
+var logs = logDetails(123, "shoes");
+var x = logDetails(123, { id: true });
 function renderPlatform(platform) {
     return platform;
 }
